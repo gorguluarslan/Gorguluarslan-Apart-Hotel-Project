@@ -1,0 +1,17 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+
+  &__Img {
+    background-color: red;
+  }
+}
+
+.Reservation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+}
