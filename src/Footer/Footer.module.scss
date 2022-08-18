@@ -3,8 +3,31 @@
   display: flex;
   justify-content: space-between;
   background-color: pink;
-}
-.Ayrı {
-  justify-content: space-between;
-  display: flex;
+
+  &__About {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+    justify-content: space-between;
+  }
+
+  &__About1 {
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+    justify-content: space-between;
+  }
+
+  &__Contact {
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    padding-right: 3px;
+    justify-content: space-between;
+  }
+
+  &__Flowers {
+    align-items: center;
+  }
 }
