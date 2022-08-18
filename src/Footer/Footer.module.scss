@@ -2,21 +2,19 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: pink;
 
   &__About {
     align-items: center;
     display: flex;
     flex-direction: row;
     padding-left: 3px;
-    justify-content: space-between;
+    background-color: rgb(120, 120, 238);
   }
 
   &__About1 {
     align-items: center;
     display: flex;
     margin-right: 5px;
-    justify-content: space-between;
   }
 
   &__Contact {
@@ -24,7 +22,6 @@
     display: flex;
     margin-left: 5px;
     padding-right: 3px;
-    justify-content: space-between;
   }
 
   &__Flowers {
