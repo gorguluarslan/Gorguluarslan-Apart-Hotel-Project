@@ -11,6 +11,9 @@ const Footer = () => {
           <img src={Img} />
         </div>
       }
+      <div className={style.Footer__Flowers2}>
+        <img src={Img} />
+      </div>
 
       <div className={style.Footer__About}>
         <div className={style.Footer__About1}> About </div>
